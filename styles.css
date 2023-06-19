@@ -1,0 +1,73 @@
+QWidget {
+  background-color: rgb(255, 255, 255);
+}
+
+QPushButton {
+  min-width: 321px;
+  height: 41px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #3F51B5;
+  font-weight:600;
+
+}
+
+QLabel {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  width: 221px;
+  height: 21px;
+  margin: 0 30px 0 30px;
+  font-weight:600;
+}
+
+QLabel#first_message {
+  font: bold;
+  font-size: 16px;
+  margin: 0;
+}
+
+QLabel#warning {
+  font-size: 12px;
+  color: rgb(212, 18, 18);
+  font-weight: 0;
+}
+
+QComboBox {
+  width: 331px;
+  height: 21px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 30px 0 30px;
+  font-weight:600;
+}
+
+QComboBox::drop-down {
+    background-color: transparent; /* Прозрачный фон для кнопки */
+  }
+  
+
+QComboBox QListView {
+  padding: 5px;
+  background-color: white;
+  color: black;
+}
+
+QLineEdit {
+  width: 331px;
+  background-color: white;
+  height: 21px;
+  border: 1px solid black;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 30px 0 30px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight:600;
+}
